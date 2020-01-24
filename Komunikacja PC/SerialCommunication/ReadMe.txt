@@ -5,6 +5,7 @@ To build a project do as follows:
 build_win
 build_linux
 build_mac
+if folder doesn't exist, then create one.
 
 2. Open terminal and set current directory to the above one.
 
