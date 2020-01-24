@@ -1,0 +1,16 @@
+--cpu Cortex-M0+
+".\objects\acdc.o"
+".\objects\assoc.o"
+".\objects\extra.o"
+".\objects\leds.o"
+".\objects\main.o"
+".\objects\pit.o"
+".\objects\tpm.o"
+".\objects\uart.o"
+".\objects\transmission.o"
+".\objects\send.o"
+".\objects\startup_mkl25z4.o"
+".\objects\system_mkl25z4.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x1FFFF000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\kl25_comm.map" -o .\Objects\kl25_comm.axf

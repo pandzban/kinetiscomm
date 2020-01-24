@@ -1,0 +1,16 @@
+.\objects\acdc.o: acdc.c
+.\objects\acdc.o: acdc.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL25Z4.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\acdc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\acdc.o: C:\Users\ag96p\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL25Z4.h
+.\objects\acdc.o: pit.h
+.\objects\acdc.o: extra.h
+.\objects\acdc.o: leds.h
+.\objects\acdc.o: transmission.h
+.\objects\acdc.o: send.h
+.\objects\acdc.o: transmission.h
+.\objects\acdc.o: assoc.h
