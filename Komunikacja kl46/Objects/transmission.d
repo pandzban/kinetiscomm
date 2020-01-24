@@ -1,0 +1,16 @@
+.\objects\transmission.o: transmission.c
+.\objects\transmission.o: transmission.h
+.\objects\transmission.o: .\RTE\Device\MKL46Z256xxx4\MKL46Z4.h
+.\objects\transmission.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\transmission.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\transmission.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\transmission.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\transmission.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\transmission.o: .\RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h
+.\objects\transmission.o: extra.h
+.\objects\transmission.o: slcd.h
+.\objects\transmission.o: extra.h
+.\objects\transmission.o: send.h
+.\objects\transmission.o: transmission.h
+.\objects\transmission.o: leds.h
+.\objects\transmission.o: assoc.h

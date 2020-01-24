@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Krzysztof Dudzik, AGH, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+C:\Users\kdudz\Dropbox\LabyGrupa1\projekt TMP poprawiony\Komunikacja kl46\kl46.uvprojx
+Project File Date:  01/23/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'CMSIS-DAP'
+compiling buttons.c...
+compiling pit.c...
+compiling main.c...
+compiling leds.c...
+compiling extra.c...
+compiling tpm.c...
+tpm.c(81): warning:  #1-D: last line of file ends without a newline
+   
+tpm.c: 1 warning, 0 errors
+compiling slcd.c...
+slcd.c(127): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if (value > 15 || value < 0){
+slcd.c(219): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (format>16 || format<2 || value<0 || value>(format*format*format*format-1)){
+slcd.c: 2 warnings, 0 errors
+assembling startup_MKL46Z4.s...
+compiling system_MKL46Z4.c...
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c(80): warning:  #47-D: incompatible redefinition of macro "CPU_XTAL_CLK_HZ"  (declared at line 120 of "RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h")
+      #define CPU_XTAL_CLK_HZ                 8000000u /* Value of the external crystal or oscillator clock frequency in Hz */
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c(81): warning:  #47-D: incompatible redefinition of macro "CPU_INT_SLOW_CLK_HZ"  (declared at line 121 of "RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h")
+      #define CPU_INT_SLOW_CLK_HZ             32768u   /* Value of the slow internal oscillator clock frequency in Hz  */
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c(82): warning:  #47-D: incompatible redefinition of macro "CPU_INT_FAST_CLK_HZ"  (declared at line 122 of "RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h")
+      #define CPU_INT_FAST_CLK_HZ             4000000u /* Value of the fast internal oscillator clock frequency in Hz  */
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c(83): warning:  #47-D: incompatible redefinition of macro "DEFAULT_SYSTEM_CLOCK"  (declared at line 130 of "RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h")
+      #define DEFAULT_SYSTEM_CLOCK            48000000u /* Default System clock value */
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c(111): warning:  #2532-D: support for trigraphs is disabled
+    /* SIM->CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=2,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c: 5 warnings, 0 errors
+compiling assoc.c...
+assoc.c(67): warning:  #550-D: variable "Num"  was set but never used
+  	uint8_t Tag = 0, Format = 0, Num = 0;
+assoc.c: 1 warning, 0 errors
+compiling send.c...
+compiling acdc.c...
+compiling uart.c...
+compiling transmission.c...
+transmission.c(202): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t temp = 0;
+transmission.c(257): warning:  #550-D: variable "Format"  was set but never used
+  	uint8_t Format = 0;
+transmission.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=9588 RO-data=540 RW-data=84 ZI-data=5884  
+".\Objects\timer.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MKL46Z4_DFP.2.3.0.pack
+                NXP.MKL46Z4_DFP.2.3.0
+                Device Family Pack for MKL46Z4
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MKL46Z256xxx4
+  .\RTE\_CMSIS-DAP
+  C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: NXP::Device:Startup:1.0.0
+      Include file:  fsl_device_registers.h
+      Include file:  MKL46Z4.h
+      Include file:  MKL46Z4_features.h
+      Source file:   arm\startup_MKL46Z4.s
+      Source file:   system_MKL46Z4.c
+      Include file:  system_MKL46Z4.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

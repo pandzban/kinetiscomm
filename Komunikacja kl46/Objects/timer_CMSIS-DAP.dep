@@ -1,0 +1,180 @@
+Dependencies for Project 'timer', Target 'CMSIS-DAP': (DO NOT MODIFY !)
+F (.\main.c)(0x5E28C63C)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (leds.h)(0x5DBF478B)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (acdc.h)(0x5E28C495)
+I (pit.h)(0x5E28C47E)
+I (transmission.h)(0x5E28C327)
+I (send.h)(0x5E28C55B)
+I (assoc.h)(0x5E28C528)
+I (tpm.h)(0x5E28C47E)
+I (buttons.h)(0x5E28C47E)
+I (uart.h)(0x5E28C572)
+F (.\slcd.c)(0x5E28C47E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\slcd.o --omf_browse .\objects\slcd.crf --depend .\objects\slcd.d)
+I (slcd.h)(0x5E28C47E)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+F (.\slcd.h)(0x5E28C47E)()
+F (.\leds.c)(0x5E28C47E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\leds.o --omf_browse .\objects\leds.crf --depend .\objects\leds.d)
+I (leds.h)(0x5DBF478B)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+F (.\leds.h)(0x5DBF478B)()
+F (.\buttons.c)(0x5DBF478B)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\buttons.o --omf_browse .\objects\buttons.crf --depend .\objects\buttons.d)
+I (buttons.h)(0x5E28C47E)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+F (.\buttons.h)(0x5E28C47E)()
+F (.\extra.c)(0x5E28C47E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\extra.o --omf_browse .\objects\extra.crf --depend .\objects\extra.d)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+F (.\extra.h)(0x5E28C47E)()
+F (.\pit.c)(0x5E28C2A7)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\pit.o --omf_browse .\objects\pit.crf --depend .\objects\pit.d)
+I (pit.h)(0x5E28C47E)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (leds.h)(0x5DBF478B)
+I (transmission.h)(0x5E28C327)
+I (send.h)(0x5E28C55B)
+I (assoc.h)(0x5E28C528)
+F (.\pit.h)(0x5E28C47E)()
+F (.\tpm.c)(0x5E28C47E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\tpm.o --omf_browse .\objects\tpm.crf --depend .\objects\tpm.d)
+I (tpm.h)(0x5E28C47E)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (leds.h)(0x5DBF478B)
+I (buttons.h)(0x5E28C47E)
+F (.\tpm.h)(0x5E28C47E)()
+F (.\acdc.c)(0x5E28CB5C)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\acdc.o --omf_browse .\objects\acdc.crf --depend .\objects\acdc.d)
+I (acdc.h)(0x5E28C495)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (pit.h)(0x5E28C47E)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (leds.h)(0x5DBF478B)
+I (transmission.h)(0x5E28C327)
+I (send.h)(0x5E28C55B)
+I (assoc.h)(0x5E28C528)
+F (.\acdc.h)(0x5E28C495)()
+F (.\uart.c)(0x5E28C2CA)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (uart.h)(0x5E28C572)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (send.h)(0x5E28C55B)
+I (transmission.h)(0x5E28C327)
+I (leds.h)(0x5DBF478B)
+I (assoc.h)(0x5E28C528)
+F (.\uart.h)(0x5E28C572)()
+F (.\assoc.c)(0x5E28C518)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\assoc.o --omf_browse .\objects\assoc.crf --depend .\objects\assoc.d)
+I (assoc.h)(0x5E28C528)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (transmission.h)(0x5E28C327)
+I (send.h)(0x5E28C55B)
+I (leds.h)(0x5DBF478B)
+F (.\assoc.h)(0x5E28C528)()
+F (.\transmission.c)(0x5E28C30D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\transmission.o --omf_browse .\objects\transmission.crf --depend .\objects\transmission.d)
+I (transmission.h)(0x5E28C327)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (send.h)(0x5E28C55B)
+I (leds.h)(0x5DBF478B)
+I (assoc.h)(0x5E28C528)
+F (.\transmission.h)(0x5E28C327)()
+F (.\send.c)(0x5E28C33A)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\send.o --omf_browse .\objects\send.crf --depend .\objects\send.d)
+I (send.h)(0x5E28C55B)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (extra.h)(0x5E28C47E)
+I (slcd.h)(0x5E28C47E)
+I (transmission.h)(0x5E28C327)
+I (leds.h)(0x5DBF478B)
+I (assoc.h)(0x5E28C528)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x51C01318)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x5DC8A32D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_CMSIS-DAP-IC:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DMKL46Z256xxx4-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\Adam\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)

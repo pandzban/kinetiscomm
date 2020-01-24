@@ -1,0 +1,9 @@
+.\objects\buttons.o: buttons.c
+.\objects\buttons.o: buttons.h
+.\objects\buttons.o: .\RTE\Device\MKL46Z256xxx4\MKL46Z4.h
+.\objects\buttons.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\buttons.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\buttons.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\buttons.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\buttons.o: C:\Users\kdudz\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\buttons.o: .\RTE\Device\MKL46Z256xxx4\system_MKL46Z4.h

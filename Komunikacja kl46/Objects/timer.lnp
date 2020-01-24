@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\slcd.o"
+".\objects\leds.o"
+".\objects\buttons.o"
+".\objects\extra.o"
+".\objects\pit.o"
+".\objects\tpm.o"
+".\objects\acdc.o"
+".\objects\uart.o"
+".\objects\assoc.o"
+".\objects\transmission.o"
+".\objects\send.o"
+".\objects\startup_mkl46z4.o"
+".\objects\system_mkl46z4.o"
+--strict --scatter ".\Objects\timer.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\timer.map" -o .\Objects\timer.axf
