@@ -13,6 +13,3 @@ The PC communication part needs to be built and compiled using Cmake and MS Visu
 It requires user to install Pemicro drivers to make USB port an serial COM port, which number must be specified in main.cpp file.
 
 Other instructions are provided in .c, .cpp and .h files' comments.
-
-Here is short video about our project in Polish language:
-[![Projekt TMP](https://img.techpowerup.org/200124/screen.jpg)](https://www.youtube.com/watch?v=6QYDE7_mTg8&feature=youtu.be&fbclid=IwAR2bA27KMbAmxoTa_OSUUnOUhwgwgr7ZWWbiY911qVBp0MrfLn30jAh0xqw)
